@@ -1,9 +1,9 @@
-# About
+## About
 Kibana plugin to provide the language or location given an ISO_3166-1 code.
 
 For example the value **de** will return `Germany` with the `Countries labels` format and `German` with the `Languages labes` format.
 
-# Install
+## Install
 ```
 ./bin/kibana-plugin install https://github.com/dobladov/kibana-fieldFormats-locale/releases/download/1.0.1/kibana-fieldFormats-locale-1.0.1.zip
  ```
