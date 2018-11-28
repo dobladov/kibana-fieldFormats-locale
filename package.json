@@ -1,0 +1,29 @@
+{
+  "name": "kibana-fieldformats-locale",
+  "version": "1.0.0",
+  "description": "Kibana plugin to provide the language or location given a ISO_3166-1 code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dobladov/kibana-fieldFormats-locale.git"
+  },
+  "keywords": [
+    "kibana",
+    "plugin",
+    "fieldFormat",
+    "country",
+    "language",
+    "ISO_3166-1"
+  ],
+  "bugs": {
+    "url": "https://github.com/dobladov/kibana-fieldFormats-locale/issues"
+  },
+  "homepage": "https://github.com/dobladov/kibana-fieldFormats-locale#readme",
+  "dependencies": {
+    "i18n-iso-countries": "^3.7.8",
+    "languages": "^0.1.3"
+  }
+}
