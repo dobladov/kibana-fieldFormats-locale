@@ -10,7 +10,7 @@ export function createCountriesFormat(FieldFormat) {
     .split('-').shift()
 
   return class UUIDFormat extends FieldFormat {
-    static id = 'countries'
+    static id = 'kibana-fieldformats-locale-countries'
     static title = 'Countries Labels'
     static fieldType = 'string'
 

@@ -4,7 +4,7 @@ import languages from 'languages'
 export function createLanguagesFormat(FieldFormat) {
 
   return class UUIDFormat extends FieldFormat {
-    static id = 'languages'
+    static id = 'kibana-fieldformats-locale-languages'
     static title = 'Languages Labels'
     static fieldType = 'string'
 
