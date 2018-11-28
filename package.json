@@ -4,7 +4,7 @@
   "description": "Kibana plugin to provide the language or location given a ISO_3166-1 code",
   "main": "index.js",
   "kibana": {
-    "version": "6.2.4"
+    "version": "6.2.5"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

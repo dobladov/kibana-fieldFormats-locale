@@ -3,7 +3,7 @@ module.exports = function (kibana) {
     name: 'kibana-fieldformats-locale',
     require: ['kibana', 'elasticsearch'],
     uiExports: {
-      fieldFormats: ['plugins/countries/countries', 'plugins/countries/languages']
+      fieldFormats: ['plugins/kibana-fieldformats-locale/countries', 'plugins/kibana-fieldformats-locale/languages']
     }
   });
 };
