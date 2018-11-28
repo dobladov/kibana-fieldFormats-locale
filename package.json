@@ -1,8 +1,11 @@
 {
   "name": "kibana-fieldformats-locale",
-  "version": "kibana",
+  "version": "1.0.1",
   "description": "Kibana plugin to provide the language or location given a ISO_3166-1 code",
   "main": "index.js",
+  "kibana": {
+    "version": "kibana"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
